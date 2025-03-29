@@ -1,0 +1,38 @@
+POST :
+    register new restaraunt
+    /restaurant
+    {
+        Restaraunt
+    }
+
+POST: add new food
+    /restaurant/id/food
+    {
+        Food
+    }
+PUT :  update food
+    /restaurant/id/food
+    {
+        Food
+    }
+
+GET : search by restaurant name
+    /restaurant?name=dhaba&city=pun
+
+GET : user can get based on food type or cuisine type
+    /restaurant?type=VEG&cuisine=biryani
+
+POST : customer can add/remove items from the cart
+    /customer/customerId/food
+
+DELETE : customer can remove items from the cart
+     /customer/customerId/food
+
+
+
+
+
+
+
+
+
