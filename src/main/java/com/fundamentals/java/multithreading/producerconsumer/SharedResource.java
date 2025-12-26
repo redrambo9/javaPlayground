@@ -1,4 +1,4 @@
-package com.producer.consumer.problem;
+package com.fundamentals.java.multithreading.producerconsumer;
 
 import java.util.LinkedList;
 import java.util.Queue;

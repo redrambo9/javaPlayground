@@ -1,4 +1,4 @@
-package com.producer.consumer.problem;
+package com.fundamentals.java.multithreading.producerconsumer;
 
 public class ProducerConsumer {
     public static void main(String[] args) {
